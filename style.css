@@ -1,0 +1,122 @@
+body
+{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(254, 118, 118);
+    margin: 50px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.left_container
+{
+    width: 50%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 10%; 
+    color: white;
+}
+
+.right_container
+{
+    width: 50%;
+    height: 100%;
+    margin: 5%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.try_free
+{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(93, 84, 163);
+    font-size: large;
+    color: white;
+}
+
+.sign
+{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#sub_button
+{
+    margin: 10px 10px 10px 10px;
+    width: 85%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(55, 204, 138);
+    border: 0.5px solid rgb(55,204,138);
+    font-weight: 700;
+}
+
+form
+{
+    margin: 10px 10px 10px 50px;
+}
+
+input
+{
+    border: 0.5px solid rgb(224,224,224);
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+}
+
+.click_button
+{
+    text-align: center;
+    color: rgb(179, 179, 179);
+    font-size: small;
+}
+
+.click_button a
+{
+    text-decoration: none;
+    color: chocolate;
+}
+
+/* Errors in form */
+#Error_fname
+{
+    margin: 5px;
+    margin-bottom: 0px;
+    display: none;
+    color: red;
+}
+
+#Error_lname
+{
+    margin: 5px;
+    margin-bottom: 0px;
+    display: none;
+    color: red;
+}
+
+#Error_email
+{
+    margin: 5px;
+    margin-bottom: 0px;
+    display: none;
+    color: red;
+}
+
+#Error_pass
+{
+    margin: 5px;
+    margin-bottom: 0px;
+    display: none;
+    color: red;
+}
