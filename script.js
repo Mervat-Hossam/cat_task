@@ -61,7 +61,7 @@ window.addEventListener('load', function loading(){
     error_pass = document.getElementById("Error_pass")
     pass.addEventListener('blur',function (e){
 
-        if(pass.value == "" || (pass.value.length < 7 || pass.value.length > 12))
+        if(pass.value == "" || pass.value.length < 5)
         {
             error_pass.style.display ="block"
             pass_valid = false
